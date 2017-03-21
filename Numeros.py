@@ -2,5 +2,5 @@
 _author_='ji.bernal27 oa.fajardo'
 
 class Numeros:
-    def mmne(cadena):
-        pass
+    def mmne(self,cadena):
+        return 0

@@ -10,4 +10,4 @@ class Numeros:
             return [float(cadena), float(cadena), float(cadena), float(cadena)]
         else:
             numeroosPar=[float(i) for i in cadena.split(",")]
-            return [len(numeroosPar), min(numeroosPar), 2, 1.5]
+            return [len(numeroosPar), min(numeroosPar), max(numeroosPar), 1.5]

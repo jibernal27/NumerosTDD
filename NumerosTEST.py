@@ -27,3 +27,6 @@ class NumerosTEST(TestCase):
 
     def test_Promedio1(self):
         self.assertEqual(Numeros().mmne("1")[3], 1, "Promedio")
+
+    def test_NumeroElementos2(self):
+        self.assertEqual(Numeros().mmne("1,2")[0], 2, "Número de elementos")

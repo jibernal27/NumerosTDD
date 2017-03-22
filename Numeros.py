@@ -9,4 +9,4 @@ class Numeros:
         elif not "," in cadena:
             return [float(cadena), float(cadena), float(cadena), float(cadena)]
         else:
-            return [2, 1, 2]
+            return [2, 1, 2, 1.5]

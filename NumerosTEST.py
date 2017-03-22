@@ -31,3 +31,7 @@ class NumerosTEST(TestCase):
 
     def test_NumeroElementos2(self):
         self.assertEqual(Numeros().mmne("1,2")[0], 2, "Número de elementos")
+
+    def test_Maximo2(self):
+        self.assertEqual(Numeros().mmne("1,2")[1], 1, "Mínimo")
+

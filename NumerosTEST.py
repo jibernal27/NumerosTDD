@@ -49,3 +49,6 @@ class NumerosTEST(TestCase):
 
     def test_Maximon(self):
         self.assertEqual(Numeros().mmne("10,2,3,5")[2], 10, "Máximo")
+
+    def test_Promedion(self):
+        self.assertEqual(Numeros().mmne("10,2,3,5")[3], 5, "Promedio")

@@ -6,8 +6,6 @@ class Numeros:
     def mmne(self, cadena):
         if cadena == "":
             return [0, 0, 0, 0]
-        elif not "," in cadena:
-            return [float(cadena), float(cadena), float(cadena), float(cadena)]
         else:
             numeroosPar = [float(i) for i in cadena.split(",")]
-            return [len(numeroosPar), min(numeroosPar), max(numeroosPar), sum(numeroosPar)/float(len(numeroosPar))]
+            return [len(numeroosPar), min(numeroosPar), max(numeroosPar), sum(numeroosPar) / float(len(numeroosPar))]

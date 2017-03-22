@@ -46,3 +46,6 @@ class NumerosTEST(TestCase):
 
     def test_Minimon(self):
         self.assertEqual(Numeros().mmne("10,2,3,5")[1], 2, "Mínimo")
+
+    def test_Maximon(self):
+        self.assertEqual(Numeros().mmne("10,2,3,5")[2], 10, "Máximo")

@@ -9,5 +9,5 @@ class Numeros:
         elif not "," in cadena:
             return [float(cadena), float(cadena), float(cadena), float(cadena)]
         else:
-            numeros=cadena.split(",")
+            numeros = cadena.split(",")
             return [len(numeros), 1, 2, 1.5]

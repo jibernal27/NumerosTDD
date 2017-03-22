@@ -43,3 +43,6 @@ class NumerosTEST(TestCase):
 
     def test_NumeroElementosn(self):
         self.assertEqual(Numeros().mmne("1,2,3,5")[0], 4, "Número de elementos")
+
+    def test_Minimon(self):
+        self.assertEqual(Numeros().mmne("10,2,3,5")[1], 2, "Mínimo")

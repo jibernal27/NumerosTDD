@@ -7,4 +7,4 @@ class Numeros:
         if cadena == "":
             return [0, 0, 0, 0]
         else:
-            return [1, float(cadena)]
+            return [1, float(cadena),float(cadena)]

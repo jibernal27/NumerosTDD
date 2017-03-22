@@ -38,5 +38,5 @@ class NumerosTEST(TestCase):
     def test_Maximo2(self):
         self.assertEqual(Numeros().mmne("1,2")[2], 2, "Máximo")
 
-    def test_Promedio1(self):
+    def test_Promedio2(self):
         self.assertEqual(Numeros().mmne("1,2")[3], 1.5, "Promedio")

@@ -6,5 +6,7 @@ class Numeros:
     def mmne(self, cadena):
         if cadena == "":
             return [0, 0, 0, 0]
+        elif cadena == "1":
+            return [float(cadena), float(cadena), float(cadena), float(cadena)]
         else:
-            return [2, float(cadena),float(cadena),float(cadena)]
+            return [2]
